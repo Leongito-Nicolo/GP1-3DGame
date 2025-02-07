@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5321829613397737377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5772395152619521382}
+  - component: {fileID: 5847967056484277886}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5772395152619521382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5321829613397737377}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 940732512983601943}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5847967056484277886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5321829613397737377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750d2db5df38fa9419fb60595e9a3347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpawnPoints:
+  - {x: -95.3, y: 1.15, z: 51.9}
+  - {x: -190.2, y: 1.15, z: 50.9}
+  - {x: -135.1, y: 1.15, z: 47.1}
+  - {x: -110.1, y: 1.15, z: 42.1}
+  - {x: -174.8, y: 1.15, z: 36.9}
+  - {x: -145, y: 1.15, z: 35.9}
+  - {x: -100.1, y: 1.15, z: 31.9}
+  - {x: -174.9, y: 1.15, z: 25.9}
+  - {x: -160, y: 1.15, z: 10.7}
+  - {x: -134.7, y: 1.15, z: 6.8}
+  - {x: -130.2, y: 1.15, z: 6.8}
+  - {x: -105.2, y: 1.15, z: 1.5}
+  - {x: -175.2, y: 1.15, z: -8.7}
+  - {x: -160.8, y: 1.15, z: -8.1}
+  - {x: -140, y: 1.15, z: -8.6}
+  - {x: -120.2, y: 1.15, z: -7.9}
+  - {x: -110.1, y: 1.15, z: -7.9}
+  - {x: -165.1, y: 1.15, z: -12.5}
+  - {x: -150, y: 1.15, z: -17.2}
+  - {x: -120.2, y: 1.15, z: -19.1}
+  - {x: -105.1, y: 1.15, z: -18.3}
+  - {x: -150, y: 1.15, z: -24.3}
+  - {x: -169.9, y: 1.15, z: -28.5}
+  - {x: -160, y: 1.15, z: -27.7}
+  - {x: -99.7, y: 1.15, z: -33.083}
+  - {x: -190.2, y: 1.15, z: -39.2}
+  - {x: -123.6, y: 1.15, z: -43}
+  - {x: -116.8, y: 1.15, z: -43}
+  - {x: -107.4, y: 1.15, z: -43}
+  enemy: {fileID: 5576248257714595469, guid: f928f70a6dcbd714781fb52e9a967eb4, type: 3}
+  gameManager: {fileID: 5169815212654975813}
+--- !u!1 &6822411477296530513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1715462346026314243}
+  - component: {fileID: 2228280922542817905}
+  m_Layer: 0
+  m_Name: Orb Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1715462346026314243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822411477296530513}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 940732512983601943}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2228280922542817905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822411477296530513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60769e0fa43fbef4c87d5ef32e122a1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orbSpawnPoints:
+  - {x: -105.01, y: 0.5, z: 37.34}
+  - {x: -140, y: 0.5, z: 25.7}
+  - {x: -160.3, y: 0.5, z: 27.1}
+  - {x: -100.1, y: 0.5, z: 6.9}
+  - {x: -114.7, y: 0.5, z: -4}
+  - {x: -109.9, y: 0.5, z: -27.2}
+  - {x: -129.5, y: 0.5, z: -32.5}
+  - {x: -185.6, y: 0.5, z: -18.2}
+  orb: {fileID: 8265526930177474692, guid: 76fa910866a5d7b43ae318ea5214ee5c, type: 3}
+  gameManager: {fileID: 5169815212654975813}
+--- !u!1 &8391965693054238961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 940732512983601943}
+  - component: {fileID: 5169815212654975813}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &940732512983601943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8391965693054238961}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3682379, y: 0.49082702, z: -0.016246773}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5772395152619521382}
+  - {fileID: 1715462346026314243}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5169815212654975813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8391965693054238961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbe7bf0da08c6014c96f922c5fb25b08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGamePaused: 0
+  hasPlayerWon: 0
+  playerController: {fileID: 0}
+  playerHealth: {fileID: 0}
+  enemySpawner: {fileID: 5847967056484277886}
+  orbSpawner: {fileID: 2228280922542817905}
+  pauseMenu: {fileID: 0}
+  gameOverMenu: {fileID: 0}
+  showStatus: {fileID: 0}
+  showScore: {fileID: 0}
+  invincibleText: {fileID: 0}
+  timer: {fileID: 0}
+  maxTime: 1200
+  score: {fileID: 0}
+  powerDuration: 8
+  totalEnemies: 29
+  totalOrbs: 8
